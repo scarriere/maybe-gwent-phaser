@@ -1,0 +1,22 @@
+{
+  "name": "maybe-gwent-phaser",
+  "version": "1.0.0",
+  "description": "Testing phaser with a gwent style game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scarriere/maybe-gwent-phaser.git"
+  },
+  "author": "samrcarr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scarriere/maybe-gwent-phaser/issues"
+  },
+  "homepage": "https://github.com/scarriere/maybe-gwent-phaser#readme",
+  "dependencies": {
+    "phaser": "^3.22.0"
+  }
+}
