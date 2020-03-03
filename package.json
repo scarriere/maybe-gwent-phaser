@@ -4,6 +4,8 @@
   "description": "Testing phaser with a gwent style game",
   "main": "index.js",
   "scripts": {
+    "build": "webpack",
+    "dev": "webpack-dev-server", 
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,13 @@
   "homepage": "https://github.com/scarriere/maybe-gwent-phaser#readme",
   "dependencies": {
     "phaser": "^3.22.0"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^5.1.1",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
   }
 }
